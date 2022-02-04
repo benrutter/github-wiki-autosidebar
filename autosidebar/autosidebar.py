@@ -43,6 +43,10 @@ class AutoSidebar():
         self.write_output_to_file('_Sidebar.md')
 
 
-if __name__ == "__main__":
+def main():
     auto_sidebar = AutoSidebar()
     auto_sidebar.run()
+
+
+if __name__ == "__main__":
+    main()
